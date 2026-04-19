@@ -3,7 +3,7 @@ import sqlite3
 db_connection = None
 
 try:
-    db_connection = sqlite3.connect('students_list.db')
+    db_connection = sqlite3.connect('../lesson13/students_list.db')
     cursor = db_connection.cursor()
     print("З'єднання з SQLite відкрито")
 
